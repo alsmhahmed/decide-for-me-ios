@@ -1,0 +1,41 @@
+# Xcode
+#
+# gitignore template for Xcode programs
+# website: https://github.com/github/gitignore/blob/main/Swift.gitignore
+
+# Build generated
+build/
+DerivedData/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# User data & states
+xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+
+# Project user data
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+# Note: In Xcode projects with SPM dependencies, Package.resolved can be checked in if desired, but user data must be ignored.
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Firebase configuration (contains project credentials)
+GoogleService-Info.plist
+**/GoogleService-Info.plist
